@@ -24,6 +24,8 @@ We have placed a number of helpful todos inside the code (see `index.js` and `Ap
 
 - Fetch flight results from the provided `flights.json` and format them into client readable results.
   - You are not required to serve this separately from the dev server (i.e. `npm start`).
+  - This file is already placed in the public folder and thus is automatically hosted locally on at `localhost:3000/flights.json`
+  - We would like you to fetch this data as it were a real api call
 
 - Use the returned data to display a page of results that matches the given design.
   - Times should be displayed in 24 hour format.
